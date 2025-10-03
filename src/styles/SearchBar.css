@@ -1,0 +1,34 @@
+.searchBarWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.spacer {
+  flex: 2;
+}
+
+.searchBar {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #2d3436;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.searchBar::placeholder {
+  color: #2d3436;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.searchBar:focus {
+  flex: 2;
+  box-shadow: 0px 0px 26px -5px #2d3436;
+}

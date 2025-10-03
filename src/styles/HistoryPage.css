@@ -1,0 +1,40 @@
+h2 {
+  color: #2d3436;
+  text-align: center;
+  margin: 20px;
+}
+
+.history-tags {
+  padding: 10px;
+}
+
+.history-tags button {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: transparent;
+  border: 2px solid #2d3436;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.history-tags button:hover {
+  background-color: #2d3436;
+  color: #b2bec3;
+}
+
+.clear-history {
+  margin-left: 15px;
+  padding: 10px;
+  border: 2px solid #2d3436;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2d3436;
+  color: #b2bec3;
+  transition: all 0.3s ease-in-out;
+}
+
+.clear-history:hover {
+  color: #2d3436;
+  background-color: transparent;
+}

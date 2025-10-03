@@ -1,0 +1,23 @@
+.photoStats-container {
+  color: #2d3436;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.photoStats-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photoStats-info div {
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.photoStats-info div span {
+  color: #b71540;
+  font-weight: 700;
+}
