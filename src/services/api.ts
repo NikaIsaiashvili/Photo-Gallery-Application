@@ -2,7 +2,7 @@ import axios from "axios";
 import { PhotoStats, SearchResponse } from "../types";
 import { Photo } from "../types/photos";
 
-const API_KEY = "AhgvtgFRSXf7mh0qXHPF_SFR2Yxlc5QSOoSa2FBjm2w";
+const API_KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 const BASE_URL = "https://api.unsplash.com";
 
 // Create axios with default config
